@@ -1,0 +1,5 @@
+/* Screen-focus: значения только при состоянии — наведение и фокус (без условий ширины). */
+.focus-card { padding: 16px; background-color: rgb(255, 255, 255); border: 1px solid rgb(203, 213, 225); }
+.focus-card:hover { background-color: rgb(254, 226, 226); }
+.focus-action { padding: 8px 12px; }
+.focus-action:focus { outline: 2px solid rgb(37, 99, 235); }

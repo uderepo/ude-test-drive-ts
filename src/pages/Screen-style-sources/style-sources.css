@@ -1,0 +1,7 @@
+/* Screen-style-sources: правила классов (имена с префиксом экрана — не задевают другие экраны). */
+.src-card { padding: 16px; background-color: #ffffff; border-radius: 8px; }
+.src-pad { padding: 16px; background-color: #ffffff; }
+.src-important { padding: 8px !important; background-color: #ffffff; }
+.src-rule { padding: 18px; border-radius: 6px; background-color: rgb(237, 233, 254); }
+.src-rule.src-boost { padding: 22px; }
+.src-flex { display: flex; gap: 8px; }

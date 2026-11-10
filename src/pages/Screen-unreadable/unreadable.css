@@ -1,0 +1,4 @@
+/* Screen-unreadable: классы с префиксом экрана. */
+.unr-box { padding: 24px; background-color: #f1f5f9; }
+.unr-pad { padding: 12px; }
+.unr-highlight { background-color: #d1fae5; }

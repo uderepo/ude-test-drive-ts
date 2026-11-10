@@ -3,6 +3,12 @@
   "dataFileRoles": {
     "src/shared/theme/tokens.css": {
       "kind": "css-tokens"
+    },
+    "src/shared/theme/palette.ts": {
+      "kind": "tokens"
+    },
+    "src/shared/theme/flatTokens.ts": {
+      "kind": "tokens"
     }
   },
   "themeContext": {
@@ -55,7 +61,11 @@
         "collectionName": "sys",
         "kind": "tokens"
       }
-    ]
+    ],
+    "importSpec": {
+      "name": "ScopedThemeContext",
+      "source": "@/shared/theme/model/scoped/scopedTheme"
+    }
   },
   "workspaceProject": {
     "projectId": "proj_EcoIHFxCJymVBYFbdW8Qew"

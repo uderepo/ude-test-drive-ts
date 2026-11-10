@@ -1,0 +1,7 @@
+.probe-pad { padding: 16px; }
+.probe-pad-important { padding: 8px !important; }
+.probe-pad-wide { padding: 4px; }
+@media (min-width: 48rem) { .probe-pad-wide { padding: 32px; } }
+.probe-plain-card { padding: 12px; color: #444; }
+.probe-row-class { display: flex; flex-direction: column; align-items: center; }
+.probe-hidden-class { display: none; }
